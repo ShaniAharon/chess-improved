@@ -1,0 +1,29 @@
+.gameBoard td {
+  font-size: 14px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+table {
+  border: 1px solid black;
+}
+
+.white {
+  background-color: white;
+  color: black;
+}
+
+.black {
+  background-color: wheat;
+  color: black;
+}
+
+.mark {
+  background-color: palevioletred;
+}
+
+.selected {
+  border: 2px solid red !important;
+}
